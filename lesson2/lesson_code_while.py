@@ -66,15 +66,15 @@
 # print("Bye-bye")
 
 # while iterating over lists
-grades = [98, 99, 78, 90, 100]
-i = 0
-excellent_grades_count = 0
-while i < len(grades):
-    if grades[i] >= 95:
-        print(f"Excellent grade: {grades[i]}")
-        excellent_grades_count += 1
-    i += 1
-print("Total excellent grades:", excellent_grades_count)
-print("Value of i:", i)
-print("Bye-bye")
+# grades = [98, 99, 78, 90, 100]
+# i = 0
+# excellent_grades_count = 0
+# while i < len(grades):
+#     if grades[i] >= 95:
+#         print(f"Excellent grade: {grades[i]}")
+#         excellent_grades_count += 1
+#     i += 1
+# print("Total excellent grades:", excellent_grades_count)
+# print("Value of i:", i)
+# print("Bye-bye")
 
