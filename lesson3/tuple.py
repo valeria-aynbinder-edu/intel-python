@@ -36,8 +36,22 @@
 # print(y)
 
 
-int('5')
-float('5.6')
-print(list('hello'))
-print(tuple('hello'))
-print(tuple([10, 11, 12, "gfgf"]))
+# int('5')
+# float('5.6')
+# print(list('hello'))
+# print(tuple('hello'))
+# print(tuple([10, 11, 12, "gfgf"]))
+#
+#
+# (12, 3, 4, 12, 7, 3, 8)
+# (12, 3, 4, 7, 8)
+
+
+def get_unique(t: tuple) -> tuple:
+    unique_elems = []
+    for elem in t:
+        if elem not in unique_elems:
+            unique_elems.append(elem)
+    return tuple(unique_elems)
+
+print(get_unique((12, "h", "ttt", 12, 3, "ttt", 12)))
