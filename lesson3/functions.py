@@ -23,7 +23,10 @@ def add_prefix(name: str):
 # print(add_prefix('moshe'))
 
 # 1, 3, 5, 7, 8, 10, 12
-def is_31_days_month()
+def is_31_days_month(month:int) -> bool:
+    return month in [1, 3, 5, 7, 8, 10, 12]
+
+
 
 
 # print(leap_year(1987))
