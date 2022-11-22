@@ -27,14 +27,23 @@ my_range = range(10)
 # print(my_range)
 # print(3 in my_range)
 # print(30 in my_range)
-
-for i in range(1_000_000):
-    print(i)
+#
+# for i in range(1_000_000):
+#     print(i)
 
 # for i in range(1000, 1_000_000, 100):
 #     print(i)
 
 # for i in range(1000, 100, -100):
 #     print(i)
+
+
+
+l = [56, -1, 67, 90, 4]
+# print(min(l))
+# print(sorted(l)[0])
+# min_num = None
+# for num in l:
+#     if num <= min_num
 
 
