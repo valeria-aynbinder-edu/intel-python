@@ -56,6 +56,11 @@ person = {
     'birth_year': 1987
 }
 
+if 'aaaaaaa' in person:
+    print(person['aaaaaaa'])
+else:
+    print("key does not exist")
+
 # print(person['birth_year'])
 
 
@@ -84,9 +89,9 @@ people = {
 #     print(people[person_id]['phone'])
 
 # a, b = 3, 4
-
-for person_id, person in people.items():
-    print(person['phone'])
+#
+# for person_id, person in people.items():
+#     print(person['phone'])
 
 
 # for elem in people.items():
