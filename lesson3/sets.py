@@ -31,7 +31,10 @@ print(busy_days)
 week_days = {'sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'}
 avail_days = week_days.difference(busy_days)
 print(avail_days)
+print(avail_days - busy_days)
 
+
+# s1 = frozenset({1, 2,3 ,4})
 
 
 
