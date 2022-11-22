@@ -20,16 +20,30 @@ def get_days_in_month(month: int, year: int) -> int:
         return 30
 
 
+def month_input() -> int:
+    while True:
+        month = input("Insert month: ")
+        if month.isdigit() and 1 <= int(month) <= 12:
+            return int(month)
+
+
+def year_input() -> int:
+    while True:
+        year = input("Insert a year: ")
+        if year.isdigit():
+            return int(year)
+
+
 print("Hello and Welcome")
 command = input("What would you like to do? 'y' for detecting leap year, 'm' for days in month")
 if command == 'y':
-    year = int(input("Insert year: "))
+    year = year_input()
     if leap_year(year):
-        print(f"leap year")
+        print(f"The year {year} is a leap year")
     else:
         print("not leap year")
 elif command == 'm':
-    year = int(input("Insert year: "))
-    month = int(input("Insert month: "))
+    year = year_input()
+    month = month_input()
     days = get_days_in_month(month, year)
     print("There are ", days," days in month")
